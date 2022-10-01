@@ -58,7 +58,6 @@ If we started to design this type, we would quickly realize that our program als
 ```java
 private static int CLUBS = 0;
 private static int HEARTS = 1;
-...
 ```
 
 There is a specific mechanism for representing these kinds of values called the [Enumerated Type](https://docs.oracle.com/javase/tutorial/java/javaOO/enum.html), or "enum types" for short. It's better to avoid the single colloquial term "enum" because it's not clear whether it refers to an enumerated type or a value of this type. Enumerated types are a truly powerful feature for software design, and I will use them extensively throughout this course. The one slight weakness of enumerated types in Java is that in addition to the enumerated values:
